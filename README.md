@@ -1,31 +1,24 @@
-# s3clone - Minimal S3-like object store (Django)
+📁 Built a Secure File Sharing API using Django REST Framework
 
-## Quick start (local)
+I developed a backend system that enables users to securely upload, manage, and access files through REST APIs.
 
-1. Extract the zip and enter the folder:
-   ```
-   unzip s3clone.zip
-   cd s3clone
-   ```
+🔹 Overview
+The platform is designed to handle file uploads and management efficiently while ensuring secure access and proper validation during file operations.
 
-2. Create virtualenv and install requirements
-   ```
-   python -m venv venv
-   source venv/bin/activate   # Windows: venv\Scripts\activate
-   pip install -r requirements.txt
-   ```
+🔹 Key Features
+• Secure file upload APIs
+• File validation and management system
+• Structured REST API architecture
+• Efficient handling of file storage and retrieval
 
-3. Make sure `object_storage` directory exists (it will be auto-created during bucket creation, but you can create now):
-   ```
-   mkdir -p object_storage
-   ```
+🔹 Tech Stack
+Django REST Framework | Python | PostgreSQL
 
-4. Run migrations and start server:
-   ```
-   python manage.py migrate
-   python manage.py runserver
-   ```
+🔹 Key Learnings
+• Designing RESTful APIs for file management systems
+• Handling file uploads and storage securely in backend applications
+• Implementing proper validation and error handling for file operations
 
-5. API base: http://127.0.0.1:8000/api/
+This project helped me gain practical experience building backend services that manage file uploads and storage in a structured and secure way.
 
-See the original chat for detailed endpoint examples (create bucket, upload file, download, presign, etc.)
+#Django #Python #BackendDevelopment #DRF #APIs
